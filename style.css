@@ -47,21 +47,19 @@ a:visited {
 	font-size: 4em;
 	font-family: Sans;
 	color: #444;
-	background: #F8F8F8;
+	background: #ffffff;
 	width: 310px;
 	height: 300px;
 	text-align: center;
 	vertical-align: center;
-	border: 1px solid #CECECE;
 	border-radius: 5px;
-	box-shadow: 1px 1px 1px #CCC;
 }
 
 
 #tictactoe td {
 	border-collapse:collapse;
-	border-left: 5px solid #CCC;
-	border-bottom: 5px solid #CCC;
+	border-left: 5px solid rgb(73, 73, 73);
+	border-bottom: 5px solid rgb(59, 59, 59);
 }
 
 #tictactoe td:first-child {

@@ -1,0 +1,111 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #7109f8;
+	color: #eee;
+	text-align: center;
+	height: 60px;
+	padding-top: 5px;
+	display: block;
+	margin-top: 0px;
+	margin-bottom: 60px;
+	box-sizing: border-box;
+	position: relative;
+	width: 100%;
+}
+
+p {
+	font-size: 14pt;
+	font-weight: bold;
+	font-family: Sans;
+	text-align: center;
+	position: relative;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+a {
+	color:  #7109f8;
+	text-decoration: none;
+}
+a:hover {
+	color:  #7109f8;
+}
+a:visited {
+	color:  #7109f8;
+}
+
+#tictactoe {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	font-size: 4em;
+	font-family: Sans;
+	color: #444;
+	background: #F8F8F8;
+	width: 310px;
+	height: 300px;
+	text-align: center;
+	vertical-align: center;
+	border: 1px solid #CECECE;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px #CCC;
+}
+
+
+#tictactoe td {
+	border-collapse:collapse;
+	border-left: 5px solid #CCC;
+	border-bottom: 5px solid #CCC;
+}
+
+#tictactoe td:first-child {
+	border-left: none;
+}
+
+#tictactoe tr:last-child td {
+	border-bottom: none;
+}
+
+
+#tictactoe td {
+	cursor: pointer;
+	height: 95px;
+	width: 95px;
+}
+
+#tictactoe td:hover {
+	background: #ECECEC;
+}
+
+#bnt-restart {
+	display: block;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	background:  #7109f8;
+	font-size: 1.5em;
+	color: #FFF;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+#bnt-restart:hover {
+	background:  #7109f8;
+}
+
+#bnt-restart:active {
+	background:  #7109f8;
+}
+
+#bnt-restart:disabled {
+	color: #444;
+	background: #CECECE;
+}
